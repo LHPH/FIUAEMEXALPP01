@@ -1,0 +1,37 @@
+IDENTIFICATION DIVISION.
+
+PROGRAM-ID. SUMA.
+
+
+DATA DIVISION.
+
+WORKING-STORAGE SECTION.
+
+
+77 X PIC 9(5) VALUE 1.
+
+77 Y PIC 9(5) VALUE 1.
+
+
+77 Z PIC 9(5) VALUE 1.
+
+
+PROCEDURE DIVISION.
+
+DISPLAY 'Programa de Suma o Resta'.
+
+DISPLAY 'Dame el primer numero '.
+
+ACCEPT A.
+
+DISPLAY 'Dame el segundo numero '.
+
+ACCEPT B.
+
+ADD X TO Y.
+
+ADD Y GIVING Z.
+
+DISPLAY 'El resultado es ',Z.
+
+STOP RUN.

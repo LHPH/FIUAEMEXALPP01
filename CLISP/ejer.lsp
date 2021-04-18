@@ -1,0 +1,10 @@
+(print "Funcion 1");
+(print (/ (- 7 1) (- 4 2)));
+(print "Funcion 2");
+(print (car'(5 2 3 4)));
+(print "Funcion 3");
+(print (cdr'(5 2 3 4)));
+(print "Funcion 4");
+(print (cons'H' (5 2 3 4)));
+(print "Funcion 5");
+(print (+ (- 5 2) (* 3 3)));
